@@ -73,7 +73,8 @@ async function load() {
             document.getElementById('bypassButton').disabled = true;
 
 			turnstile.render(document.querySelector(".cfLoader"), {
-				sitekey: '0x4AAAAAAA50YpXxOsoTuUZk',
+				sitekey: '0x4AAAAAABADuz_ijBkxS1wM'
+',
 				callback: async function(token) {
 					updateUI(false, `<div class="flex justify-center items-center">
 										<div class="spinner-border animate-spin inline-block w-6 h-6 border-4 border-t-transparent border-white rounded-full"></div>
